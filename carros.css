@@ -126,3 +126,10 @@ body {
 .h1 {
   color: white;
 }
+
+.card.h-100.bg-dark.mb-3.border-light:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px #000000;
+}
