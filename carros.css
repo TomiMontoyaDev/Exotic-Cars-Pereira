@@ -133,3 +133,19 @@ body {
   cursor: pointer;
   box-shadow: 4px 4px 8px #000000;
 }
+
+#aviso {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: auto;
+  text-shadow: 4px 4px 8px #000000;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#warning {
+  translate: (-50%, -50%);
+  margin-top: -10px;
+}

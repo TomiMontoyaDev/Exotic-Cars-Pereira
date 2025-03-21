@@ -45,7 +45,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 #logo {
   width: 350px;
   height: 350px;
@@ -73,6 +72,31 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.carousel.slide {
+  border: solid 8px black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#containerviaducto {
+  background-image: url("./images/viaducto.jpg");
+  background-size: fixed;
+  border: solid 8px black;
+  padding: 40px;
+}
+
+.containertitulo {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 8px #000000;
+}
+
+.containertitulo h1 {
+  font-size: 80px;
 }
 
 #footer {
@@ -107,21 +131,28 @@ body {
   margin-left: 25px;
 }
 
-.containertitulo {
+#tituloCarro {
   color: white;
   margin-top: 20px;
   margin-bottom: 20px;
   text-shadow: 4px 4px 8px #000000;
 }
 
-.containertitulo h1 {
-  font-size: 80px;
+#contenedor-especificaciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-#titulo {
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-shadow: 4px 4px 8px #000000;
-  font-size: 80px;
+#carouselCarro,
+#imagenCarro,
+#tablaEspecificaciones {
+  max-width: 600px;
+  width: 100%;
+}
+
+#tablaEspecificaciones {
+  height: auto; /* Se ajusta automáticamente */
 }
