@@ -9,7 +9,7 @@ const carros = [
   /* CARRO 2 */
   {
     nombre: "Ford Mustang GT 50 Years Edition",
-    imagen: "./Carrosfotos/Carros Pagina/Mustang GT Black/MustangGT50.jpg",
+    imagen: "Carrosfotos/Carros Pagina/Mustang GT black/MustangGT50.jpg",
   },
   /* FIN CARRO 2 */
 
