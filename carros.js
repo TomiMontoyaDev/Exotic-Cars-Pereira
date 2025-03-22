@@ -1,8 +1,52 @@
 const carros = [
+  /* CARRO 1 */
   {
     nombre: "Mazda MX5 (Primera Generacion)",
     imagen: "./Carrosfotos/Carros Pagina/Mazda MX5 red/mx5red.jpg",
   },
+  /* FIN CARRO 1 */
+
+  /* CARRO 2 */
+  {
+    nombre: "Ford Mustang GT 50 Years Edition",
+    imagen: "./Carrosfotos/Carros Pagina/Mustang GT Black/MustangGT50.jpg",
+  },
+  /* FIN CARRO 2 */
+
+  /* CARRO 3 */
+  {
+    nombre: "Mazda MX5 NC (Tercera Generacion)",
+    imagen: "./Carrosfotos/Carros Pagina/Mazda MX5 black/IMG_4107.jpg",
+  },
+  /* FIN CARRO 3 */
+
+  /* CARRO 4 */
+  {
+    nombre: "Porsche Cayenne",
+    imagen: "./Carrosfotos/Carros Pagina/Porsche cayenne/Cayenne.jpg",
+  },
+  /* FIN CARRO 4 */
+
+  /* CARRO 5 */
+  {
+    nombre: "Chevrolet Corvette C8",
+    imagen: "./Carrosfotos/Carros Pagina/Corvette/Corvette.jpg",
+  },
+  /* FIN CARRO 5 */
+
+  /* CARRO 6 */
+  {
+    nombre: "Volkswagen Jetta GLI",
+    imagen: "./Carrosfotos/Carros Pagina/Jetta/Jetta.jpg",
+  },
+  /* FIN CARRO 6 */
+
+  /* CARRO 7 */
+  {
+    nombre: "Mazda MX5 Blue (Primera Generacion)",
+    imagen: "./Carrosfotos/Carros Pagina/MX5 blue/Mx5Blue.jpg",
+  },
+  /* FIN CARRO 7 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

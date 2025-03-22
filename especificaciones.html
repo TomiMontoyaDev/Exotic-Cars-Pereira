@@ -114,7 +114,7 @@
   </div>
 
   <!-- Imagen única (si no hay carrusel) -->
-  <img id="imagenCarro" class="img-thumbnail" alt="Carro" style="display: none" />
+  <img id="imagenCarro" alt="Carro" style="display: none; border: 8px solid black;" />
 
   <!-- Tabla de especificaciones -->
   <table class="table table-striped table-dark" id="tablaEspecificaciones"></table>
@@ -153,13 +153,15 @@
     <script>
       // 1️⃣ Base de datos de carros
       const carros = {
+        /* CARRO 1 */
         "Mazda MX5 (Primera Generacion)": {
-          imagenes: [
-            "./Carrosfotos/Carros Pagina/Mazda MX5 red/mx5red.jpg",
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mazda MX5 red/mx5red.jpg"},
         ],
           especificaciones: {
+            Origen: "El Mazda MX-5 de primera generación (NA) debutó en 1989 en el Salón de Chicago, inspirado en los roadsters británicos clásicos. Diseñado en Japón y producido en Hiroshima, revolucionó el mercado con su peso ligero, tracción trasera y techo descapotable, convirtiéndose en el roadster más vendido del mundo.",
             Marca: "Mazda",
-            Modelo: "MX5 (Primera Generación)",
+            Modelo: "MX5 NA (Primera Generación)",
             Motor: "1.6",
             "Inicio/Fin Producción": "1990 - 1994",
             Combustible: "Gasolina",
@@ -168,64 +170,194 @@
             Potencia: "115 HP @6500rpm 135Nm",
           },
         },
+        /* FIN CARRO 1 */
+
+        /* CARRO 2 */
+        "Ford Mustang GT 50 Years Edition": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mustang GT Black/MustangGT50.jpg"},
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mustang GT black/IMG_1921.jpg"},
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mustang GT black/IMG_1920.jpg"}
+          ],
+          especificaciones: {
+            Origen: "La edición limitada Ford Mustang GT 2014 Edición 50 Años fue un auto fabricado en la planta de Flat Rock, Michigan. Este modelo fue una edición especial que rindió homenaje a los 50 años del Ford Mustang.",
+            Marca: "Ford",
+            Modelo: "Mustang GT 50 Years Edition",
+            Motor: "V8 5.0",
+            "Inicio/Fin Producción": "2014 - 2018",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "4.8s",
+            "Velocidad Máxima": "250km/h",
+            Potencia: "421 HP @6500rpm 530Nm",
+          },
+        },
+        /* FIN CARRO 2 */
+
+        /* CARRO 3 */
+        "Mazda MX5 NC (Tercera Generacion)": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mazda MX5 black/IMG_4107.jpg"},
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mazda MX5 black/IMG_4106.jpg"},
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mazda MX5 black/IMG_4108.jpg"},
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Mazda MX5 black/IMG_4109.jpg"},
+          ],
+          especificaciones: {
+            Origen: "El Mazda MX-5 de tercera generación (NC) debutó en 2005 en el Salón de Ginebra, evolucionando con un diseño más moderno y un chasis más rígido. Diseñado y fabricado en Hiroshima, Japón, mantuvo la esencia ligera y deportiva del modelo, introduciendo por primera vez un techo rígido retráctil en 2006.",
+            Marca: "Mazda",
+            Modelo: "MX5 NC (Tercera Generacion)",
+            Motor: "2.0",
+            "Inicio/Fin Producción": "2005 - 2015",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "7.9s",
+            "Velocidad Máxima": "210km/h",
+            Potencia: "160 HP @6700rpm 188Nm",
+          }
+        },
+        /* FIN CARRO 3 */
+
+        /* CARRO 4 */
+        "Porsche Cayenne": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Porsche cayenne/Cayenne.jpg"},
+        ],
+          especificaciones: {
+            Origen: "El Porsche Cayenne fue anunciado por primera vez en 1998 y presentado oficialmente en el Salón del Automóvil de París en septiembre de 2002. Este modelo surgió de la colaboración entre Porsche y Volkswagen, compartiendo plataforma con el Volkswagen Touareg. La producción inicial se llevó a cabo en una planta nueva en Leipzig, Alemania, construida específicamente para este propósito. ",
+            Marca: "Porsche ",
+            Modelo: "Cayenne",
+            Motor: " V8 biturbo 4.0",
+            "Inicio/Fin Producción": "2002 - Actualidad",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "4.5s",
+            "Velocidad Máxima": "270km/h",
+            Potencia: "460 HP @6800rpm 620Nm",
+        },
+        },
+        /* FIN CARRO 4 */
+
+        /* CARRO 5 */
+        "Chevrolet Corvette C8": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Corvette/Corvette.jpg"},
+            { tipo: "video", src:"./Carrosfotos/Carros Pagina/Corvette/Corvette.mp4"},
+        ],
+          especificaciones: {
+            Origen: "El Chevrolet Corvette C8 marcó un hito al ser el primer Corvette con motor central, una configuración que mejora notablemente su rendimiento y manejo. Desde su lanzamiento en 2020, ha sido reconocido por su diseño innovador y prestaciones sobresalientes, consolidándose como un referente en el segmento de los deportivos a nivel mundial.",
+            Marca: "Chevrolet ",
+            Modelo: "Corvette C8",
+            Motor: " V8 atmosferico 6.2",
+            "Inicio/Fin Producción": "2020 - Actualidad",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "3s",
+            "Velocidad Máxima": "313km/h",
+            Potencia: "502 HP @6500rpm 637Nm",
+        }},
+        /* FIN CARRO 5 */
+
+        /* CARRO 6 */
+        "Volkswagen Jetta GLI": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/Jetta/Jetta.jpg"},
+        ],
+          especificaciones: {
+            Origen: "El Volkswagen Jetta GLI hizo su debut en 1984 como la versión deportiva del Jetta, ofreciendo el rendimiento del Golf GTI en un sedán más espacioso. A lo largo de las décadas, ha evolucionado manteniendo su esencia deportiva y adaptándose a las demandas del mercado. La versión 2010, perteneciente a la quinta generación, combinó prestaciones deportivas con la comodidad y funcionalidad características del modelo.",
+            Marca: "Volkswagen",
+            Modelo: "Jetta GLI",
+            Motor: "2.0 Turbo",
+            "Inicio/Fin Producción": " 2005 - 2010 (transición a la sexta generación en 2011)",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "8.9s",
+            "Velocidad Máxima": "210km/h",
+            Potencia: "200HP @6000rpm 280Nm",
+        }},
+        /* FIN CARRO 6 */
+
+        /* CARRO 7 */
+        "Mazda MX5 Blue (Primera Generacion)": {
+          medios: [
+            { tipo: "imagen", src:"./Carrosfotos/Carros Pagina/MX5 blue/Mx5Blue.jpg"},
+        ],
+          especificaciones: {
+            Origen: "El Mazda MX-5 de primera generación (NA) debutó en 1989 en el Salón de Chicago, inspirado en los roadsters británicos clásicos. Diseñado en Japón y producido en Hiroshima, revolucionó el mercado con su peso ligero, tracción trasera y techo descapotable, convirtiéndose en el roadster más vendido del mundo.",
+            Marca: "Mazda",
+            Modelo: "MX5 NA (Primera Generación)",
+            Motor: "1.6",
+            "Inicio/Fin Producción": "1990 - 1994",
+            Combustible: "Gasolina",
+            "Aceleración 0-100 km/h": "8.7s",
+            "Velocidad Máxima": "185km/h",
+            Potencia: "115 HP @6500rpm 135Nm",
+          },}
       };
 
-      // 1️⃣ Leer parámetros de la URL
-      const params = new URLSearchParams(window.location.search);
-      const nombreCarro = params.get("carro");
 
-      // Obtener referencia al título del carro
-      const tituloCarro = document.getElementById("tituloCarro");
+  // 1️⃣ Leer parámetros de la URL
+  const params = new URLSearchParams(window.location.search);
+  const nombreCarro = params.get("carro");
 
-      if (nombreCarro && carros[nombreCarro]) {
-        tituloCarro.textContent = nombreCarro;
-      }
-      // Si el carro existe, actualizar el título con su nombre
+  // Obtener referencia al título del carro
+  const tituloCarro = document.getElementById("tituloCarro");
 
-      // 2️⃣ Buscar información del carro
-      if (nombreCarro && carros[nombreCarro]) {
-        const carro = carros[nombreCarro];
+  // 2️⃣ Buscar información del carro
+  if (nombreCarro && carros[nombreCarro]) {
+    const carro = carros[nombreCarro];
 
-        // 3️⃣ Actualizar título del carro
-        document.getElementById("tituloCarro").textContent = nombreCarro;
+    // 3️⃣ Actualizar título del carro
+    tituloCarro.textContent = nombreCarro;
 
-        // 4️⃣ Verificar si tiene múltiples imágenes (usar carrusel) o solo una imagen
-        if (carro.imagenes.lenght > 1) {
-          const carouselInner = document.getElementById("carouselInner");
-          carro.imagenes.forEach((imagen, index) => {
-            carouselInner.innerHTML += `
+    // 4️⃣ Verificar si tiene múltiples imágenes o videos
+    if (carro.medios.length > 1) {
+      const carouselInner = document.getElementById("carouselInner");
+
+      carro.medios.forEach((media, index) => {
+        let contenido = "";
+        if (media.tipo === "imagen") {
+          contenido = `<img src="${media.src}" class="d-block w-100" alt="${nombreCarro}">`;
+        } else if (media.tipo === "video") {
+          contenido = `
+            <video class="d-block w-100" controls autoplay loop muted>
+              <source src="${media.src}" type="video/mp4">
+              Tu navegador no soporta la reproducción de videos.
+            </video>
+          `;
+        }
+
+        carouselInner.innerHTML += `
           <div class="carousel-item ${index === 0 ? "active" : ""}">
-            <img src="${imagen}" class="d-block w-100" alt="${nombreCarro}">
+            ${contenido}
           </div>
         `;
-          });
-          document.getElementById("carouselCarro").style.display = "block"; // Mostrar carrusel
-          if (carro.imagenes.length === 1) {
-    document.querySelector(".carousel-control-prev").style.display = "none";
-    document.querySelector(".carousel-control-next").style.display = "none";
-  }
-} else {
-  // Mostrar imagen única si no hay múltiples imágenes
-  document.getElementById("imagenCarro").src = carro.imagenes[0];
-  document.getElementById("imagenCarro").alt = nombreCarro;
-  document.getElementById("imagenCarro").style.display = "block";
-}
+      });
 
-        // 5️⃣ Construir la tabla de especificaciones
-        const tabla = document.getElementById("tablaEspecificaciones");
-        Object.entries(carro.especificaciones).forEach(([clave, valor]) => {
-          tabla.innerHTML += `
+      // Mostrar carrusel y ocultar imagen única
+      document.getElementById("carouselCarro").style.display = "block";
+      document.getElementById("imagenCarro").style.display = "none";
+
+      // Ocultar botones de navegación si solo hay un elemento
+      if (carro.medios.length === 1) {
+        document.querySelector(".carousel-control-prev").style.display = "none";
+        document.querySelector(".carousel-control-next").style.display = "none";
+      }
+    } else {
+      // Mostrar imagen única si solo hay un medio
+      document.getElementById("imagenCarro").src = carro.medios[0].src;
+      document.getElementById("imagenCarro").alt = nombreCarro;
+      document.getElementById("imagenCarro").style.display = "block";
+      document.getElementById("carouselCarro").style.display = "none";
+    }
+
+    // 5️⃣ Construir la tabla de especificaciones
+    const tabla = document.getElementById("tablaEspecificaciones");
+    Object.entries(carro.especificaciones).forEach(([clave, valor]) => {
+      tabla.innerHTML += `
         <tr>
           <th scope="row">${clave}:</th>
           <td>${valor}</td>
         </tr>
       `;
-        });
-      } else {
-        document.querySelector(
-          ".container"
-        ).innerHTML = `<h2>Carro no encontrado</h2>`;
-      }
+    });
+  } else {
+    document.querySelector(".container").innerHTML = `<h2>Carro no encontrado</h2>`;
+  }
     </script>
   </body>
 </html>
