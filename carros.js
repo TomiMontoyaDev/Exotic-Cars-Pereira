@@ -195,6 +195,34 @@ const carros = [
     imagen: "./Carrosfotos/Carros Pagina/CamaroZL1/CamaroZL1.jpg",
   },
   /* FIN CARRO 28 */
+
+  /* CARRO 29 */
+  {
+    nombre: "BMW X6M",
+    imagen: "./Carrosfotos/Carros Pagina/BMWX6M/BMWX6M.jpg",
+  },
+  /* FIN CARRO 29 */
+
+  /* CARRO 30 */
+  {
+    nombre: "Audi A5 Cabriolet",
+    imagen: "./Carrosfotos/Carros Pagina/AudiA5/AudiA51.jpg",
+  },
+  /* FIN CARRO 30 */
+
+  /* CARRO 31 */
+  {
+    nombre: "Chevrolet Camaro SS (Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/Camaro pink/camaropink.jpg",
+  },
+  /* FIN CARRO 31 */
+
+  /* CARRO 32 */
+  {
+    nombre: "Audi TT",
+    imagen: "./Carrosfotos/Carros Pagina/AudiTTgray/TTgray1.jpg",
+  },
+  /* FIN CARRO 32 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
