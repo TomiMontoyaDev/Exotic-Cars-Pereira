@@ -160,6 +160,41 @@ const carros = [
       "./Carrosfotos/Carros Pagina/MustangGTWrap/DB8579AE-7BC0-4087-BAED-BDFC4F5D2879.jpg",
   },
   /* FIN CARRO 23 */
+
+  /* CARRO 24 */
+  {
+    nombre: "Mercedes C 200 Cabriolet",
+    imagen: "./Carrosfotos/Carros Pagina/Mercedes C200/c2001.jpg",
+  },
+  /* FIN CARRO 24 */
+
+  /* CARRO 25 */
+  {
+    nombre: "BMW M 220i",
+    imagen: "./Carrosfotos/Carros Pagina/BMW 220i/IMG_2295.jpg",
+  },
+  /* FIN CARRO 25 */
+
+  /* CARRO 26 */
+  {
+    nombre: "Chevrolet Camaro SS",
+    imagen: "./Carrosfotos/Carros Pagina/CamaroSSgray/CamaroSSgray1.jpg",
+  },
+  /* FIN CARRO 26 */
+
+  /* CARRO 27 */
+  {
+    nombre: "Mercedes SLK 200",
+    imagen: "./Carrosfotos/Carros Pagina/MercedesSLK200/IMG_2880.PNG",
+  },
+  /* FIN CARRO 27 */
+
+  /* CARRO 28 */
+  {
+    nombre: "Chevrolet Camaro ZL1",
+    imagen: "./Carrosfotos/Carros Pagina/CamaroZL1/CamaroZL1.jpg",
+  },
+  /* FIN CARRO 28 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
