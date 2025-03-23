@@ -103,6 +103,63 @@ const carros = [
     imagen: "./Carrosfotos/Carros Pagina/BMW M4/m4.jpg",
   },
   /* FIN CARRO 15 */
+
+  /* CARRO 16 */
+  {
+    nombre: "Tesla Model S",
+    imagen: "./Carrosfotos/Carros Pagina/TeslaModelS/TeslaModelS.jpg",
+  },
+  /* FIN CARRO 16 */
+
+  /* CARRO 17 */
+  {
+    nombre: "Mercedes Benz C180",
+    imagen: "./Carrosfotos/Carros Pagina/Mercedes C180/IMG_1074.jpg",
+  },
+  /* FIN CARRO 17 */
+
+  /* CARRO 18 */
+  {
+    nombre: "Ford Mustang GT",
+    imagen: "./Carrosfotos/Carros Pagina/MustangGTgray/MustangGTgray.jpg",
+  },
+  /* FIN CARRO 18 */
+
+  /* CARRO 19 */
+  {
+    nombre: "BMW X6",
+    imagen: "./Carrosfotos/Carros Pagina/BMW X6/IMG_1266.jpg",
+  },
+  /* FIN CARRO 19 */
+
+  /* CARRO 20 */
+  {
+    nombre: "Ford Bronco Raptor WildTrak",
+    imagen: "./Carrosfotos/Carros Pagina/BroncoBlack/IMG_1655.jpg",
+  },
+  /* FIN CARRO 20 */
+
+  /* CARRO 21 */
+  {
+    nombre: "Chevrolet Camaro SS (Police Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/Camaro Tombo/IMG_1768.jpg",
+  },
+  /* FIN CARRO 21 */
+
+  /* CARRO 22 */
+  {
+    nombre: "BMW Z4",
+    imagen: "./Carrosfotos/Carros Pagina/BMWZ4/IMG_1791.jpg",
+  },
+  /* FIN CARRO 22 */
+
+  /* CARRO 23 */
+  {
+    nombre: "Ford Mustang GT (Wrap)",
+    imagen:
+      "./Carrosfotos/Carros Pagina/MustangGTWrap/DB8579AE-7BC0-4087-BAED-BDFC4F5D2879.jpg",
+  },
+  /* FIN CARRO 23 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
