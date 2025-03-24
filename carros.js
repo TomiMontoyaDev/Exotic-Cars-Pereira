@@ -279,6 +279,132 @@ const carros = [
     imagen: "./Carrosfotos/Carros Pagina/Mercedes280SL/Mercedes280SL.jpg",
   },
   /* FIN CARRO 40 */
+
+  /* CARRO 41 */
+  {
+    nombre: "Mercedes Benz CLA 45 S",
+    imagen: "./Carrosfotos/Carros Pagina/MercedesCLA45S/MercedesCLA45S.jpg",
+  },
+  /* FIN CARRO 41 */
+
+  /* CARRO 42 */
+  {
+    nombre: "Chevrolet Camaro SS (Red)",
+    imagen: "./Carrosfotos/Carros Pagina/CamaroSS/CamaroSS.jpg",
+  },
+  /* FIN CARRO 42 */
+
+  /* CARRO 43 */
+  {
+    nombre: "Subaru WRX",
+    imagen: "./Carrosfotos/Carros Pagina/Subaru WRX/subaruwrx.jpg",
+  },
+  /* FIN CARRO 43 */
+
+  /* CARRO 44 */
+  {
+    nombre: "Mustang GT (Antiguo)",
+    imagen: "./Carrosfotos/Carros Pagina/MustangAntiguo/MustangAntiguo.jpg",
+  },
+  /* FIN CARRO 44 */
+
+  /* CARRO 45 */
+  {
+    nombre: "Mercedes Benz SLC 200",
+    imagen: "./Carrosfotos/Carros Pagina/Mercedes SLC 200/SLC200.jpg",
+  },
+  /* FIN CARRO 45 */
+
+  /* CARRO 46 */
+  {
+    nombre: "Ford Mustang GT (White & Blue)",
+    imagen: "./Carrosfotos/Carros Pagina/MustangGTwhite/MustangGTwhite.jpg",
+  },
+  /* FIN CARRO 46 */
+
+  /* CARRO 47 */
+  {
+    nombre: "Porsche Boxter 718",
+    imagen:
+      "./Carrosfotos/Carros Pagina/PorscheBoxterWhite/PorscheBoxterWhite.jpg",
+  },
+  /* FIN CARRO 47 */
+
+  /* CARRO 48 */
+  {
+    nombre: "Dodge Ram 2500",
+    imagen: "./Carrosfotos/Carros Pagina/Ram2500/Ram25001.jpg",
+  },
+  /* FIN CARRO 48 */
+
+  /* CARRO 49 */
+  {
+    nombre: "Ford Bronco Raptor Wildtrak (Green)",
+    imagen: "./Carrosfotos/Carros Pagina/FordBronco/broncoraptor.jpg",
+  },
+  /* FIN CARRO 49 */
+
+  /* CARRO 50 */
+  {
+    nombre: "BMW M3",
+    imagen: "./Carrosfotos/Carros Pagina/BMWM3/BMWM3.jpg",
+  },
+  /* FIN CARRO 50 */
+
+  /* CARRO 51 */
+  {
+    nombre: "BMW Z4 (Blue)",
+    imagen: "./Carrosfotos/Carros Pagina/BMWZ4blue/BMWZ4blue.jpg",
+  },
+  /* FIN CARRO 51 */
+
+  /* CARRO 52 */
+  {
+    nombre: "Mitsubishi Lancer (Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/lancerTuning/lancerTuning.jpg",
+  },
+  /* FIN CARRO 52 */
+
+  /* CARRO 53 */
+  {
+    nombre: "Ford F-150",
+    imagen: "./Carrosfotos/Carros Pagina/FordF150/FordF150.jpg",
+  },
+  /* FIN CARRO 53 */
+
+  /* CARRO 54 */
+  {
+    nombre: "Tesla Model 3",
+    imagen: "./Carrosfotos/Carros Pagina/TeslaModel3/TeslaModel3.jpg",
+  },
+  /* FIN CARRO 54 */
+
+  /* CARRO 55 */
+  {
+    nombre: "BMW X6 (Black)",
+    imagen: "./Carrosfotos/Carros Pagina/BMW X6 black/X6black.jpg",
+  },
+  /* FIN CARRO 55 */
+
+  /* CARRO 56 */
+  {
+    nombre: "Audi TT Cabriolet",
+    imagen: "./Carrosfotos/Carros Pagina/AudiTTred/AudiTTred1.jpg",
+  },
+  /* FIN CARRO 56 */
+
+  /* CARRO 57 */
+  {
+    nombre: "Toyota LC 300 2024",
+    imagen: "./Carrosfotos/Carros Pagina/ToyotaLC300/lc300.jpg",
+  },
+  /* FIN CARRO 57 */
+
+  /* CARRO 58 */
+  {
+    nombre: "Nissan 370z (Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/HondaCivicTypeR/hondaCivicTypeR.jpg",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
