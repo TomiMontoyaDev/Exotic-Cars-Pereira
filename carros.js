@@ -223,6 +223,62 @@ const carros = [
     imagen: "./Carrosfotos/Carros Pagina/AudiTTgray/TTgray1.jpg",
   },
   /* FIN CARRO 32 */
+
+  /* CARRO 33 */
+  {
+    nombre: "Jeep Gladiator",
+    imagen: "./Carrosfotos/Carros Pagina/JeepGladiator/Gladiator.png",
+  },
+  /* FIN CARRO 33 */
+
+  /* CARRO 34 */
+  {
+    nombre: "Mitsubishi Lancer",
+    imagen: "./Carrosfotos/Carros Pagina/LancerRed/LancerRed.jpg",
+  },
+  /* FIN CARRO 34 */
+
+  /* CARRO 35 */
+  {
+    nombre: "Mercedes Benz A45 S",
+    imagen: "./Carrosfotos/Carros Pagina/MercedesA45S/MercedesA45S1.jpg",
+  },
+  /* FIN CARRO 35 */
+
+  /* CARRO 36 */
+  {
+    nombre: "Toyota Prado 2025 TXL",
+    imagen: "./Carrosfotos/Carros Pagina/PradoTXL/IMG_3671.jpg",
+  },
+  /* FIN CARRO 36 */
+
+  /* CARRO 37 */
+  {
+    nombre: "BMW M440i",
+    imagen: "./Carrosfotos/Carros Pagina/BMWM440iWhite/BMWM440iWhite1.jpg",
+  },
+  /* FIN CARRO 37 */
+
+  /* CARRO 38 */
+  {
+    nombre: "Porsche 911 Turbo (Antiguo)",
+    imagen: "./Carrosfotos/Carros Pagina/Porsche911Turbo/Porsche911Turbo.jpg",
+  },
+  /* FIN CARRO 38 */
+
+  /* CARRO 39 */
+  {
+    nombre: "Porsche Boxter S",
+    imagen: "./Carrosfotos/Carros Pagina/PorscheBoxterS/PorscheBoxterS3.jpg",
+  },
+  /* FIN CARRO 39 */
+
+  /* CARRO 40 */
+  {
+    nombre: "Mercedes Benz 280 SL",
+    imagen: "./Carrosfotos/Carros Pagina/Mercedes280SL/Mercedes280SL.jpg",
+  },
+  /* FIN CARRO 40 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
