@@ -206,7 +206,7 @@ const carros = [
   /* CARRO 30 */
   {
     nombre: "Audi A5 Cabriolet",
-    imagen: "./Carrosfotos/Carros Pagina/AudiA5/AudiA51.jpg",
+    imagen: "./Carrosfotos/Carros Pagina/AudiA5/AudiA51.JPG",
   },
   /* FIN CARRO 30 */
 
@@ -227,7 +227,7 @@ const carros = [
   /* CARRO 33 */
   {
     nombre: "Jeep Gladiator",
-    imagen: "./Carrosfotos/Carros Pagina/JeepGladiator/Gladiator.png",
+    imagen: "./Carrosfotos/Carros Pagina/JeepGladiator/gladiator.png",
   },
   /* FIN CARRO 33 */
 
@@ -361,7 +361,7 @@ const carros = [
   /* CARRO 52 */
   {
     nombre: "Mitsubishi Lancer (Tuning)",
-    imagen: "./Carrosfotos/Carros Pagina/lancerTuning/lancerTuning.jpg",
+    imagen: "./Carrosfotos/Carros Pagina/LancerTuning/LancerTuning.jpg",
   },
   /* FIN CARRO 52 */
 
@@ -382,7 +382,7 @@ const carros = [
   /* CARRO 55 */
   {
     nombre: "BMW X6 (Black)",
-    imagen: "./Carrosfotos/Carros Pagina/BMW X6 black/X6black.jpg",
+    imagen: "./Carrosfotos/Carros Pagina/BMW X6 black/X6Black.jpg",
   },
   /* FIN CARRO 55 */
 
