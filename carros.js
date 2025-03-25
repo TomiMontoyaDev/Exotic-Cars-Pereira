@@ -420,6 +420,47 @@ const carros = [
     imagen: "./Carrosfotos/Carros Pagina/PorscheBoxterRojo/BoxterRojo.jpg",
   },
   /* FIN CARRO 60 */
+
+  /* CARRO 61 */
+  {
+    nombre: "Dodge Ram 2500 (Black)",
+    imagen: "./Carrosfotos/Carros Pagina/Ram2500black/RamBlack.jpg",
+  },
+  /* FIN CARRO 61 */
+
+  /* CARRO 62 */
+  {
+    nombre: "Mercedes Benz AMG A35 Turbo",
+    imagen: "./Carrosfotos/Carros Pagina/MercedesA35/A35.jpg",
+  },
+  /* FIN CARRO 62 */
+
+  /* CARRO 63 */
+  {
+    nombre: "BMW M440i Cabriolet",
+    imagen: "./Carrosfotos/Carros Pagina/BMWM440i/M440i.jpg",
+  },
+  /* FIN CARRO 63 */
+
+  /* CARRO 64 */
+  {
+    nombre: "Tesla CyberTruck",
+    imagen: "./Carrosfotos/Carros Pagina/Cybertruck/CyberTruck.jpg",
+  },
+  /* FIN CARRO 64 */
+
+  /* CARRO 65 */
+  {
+    nombre: "Nissan GTR",
+    imagen: "./Carrosfotos/Carros Pagina/NissanGTR/GTR.jpg",
+  },
+  /* FIN CARRO 65 */
+
+  /* CARRO 66 */
+  {
+    nombre: "Ford F-150 Raptor",
+    imagen: "./Carrosfotos/Carros Pagina/FordRaptor/Raptor.jpg",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
