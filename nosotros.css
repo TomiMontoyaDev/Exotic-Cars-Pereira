@@ -117,3 +117,11 @@ body {
 .containertitulo h1 {
   font-size: 80px;
 }
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+  margin: 0;
+  padding: 0;
+}

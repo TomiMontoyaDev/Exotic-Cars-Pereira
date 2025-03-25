@@ -2,6 +2,14 @@
   background-color: #302c9b;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #0f0c29;
   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
