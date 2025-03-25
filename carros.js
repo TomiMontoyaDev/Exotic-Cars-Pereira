@@ -461,6 +461,42 @@ const carros = [
     nombre: "Ford F-150 Raptor",
     imagen: "./Carrosfotos/Carros Pagina/FordRaptor/Raptor.jpg",
   },
+  /* FIN CARRO 66 */
+
+  /* CARRO 67 */
+  {
+    nombre: "Ford Fiesta ST (Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/FordFiesta/Fiesta.jpg",
+  },
+  /* FIN CARRO 67 */
+
+  /* CARRO 68 */
+  {
+    nombre: "Jeep Wrangler Rubicon",
+    imagen: "./Carrosfotos/Carros Pagina/JeepWrangler/Wrangler.jpg",
+  },
+  /* FIN CARRO 68 */
+
+  /* CARRO 69 */
+  {
+    nombre: "Ford Ranger XLT (Antigua)",
+    imagen: "./Carrosfotos/Carros Pagina/RangerAntigua/RangerOG.jpg",
+  },
+  /* FIN CARRO 69 */
+
+  /* CARRO 70 */
+  {
+    nombre: "Ford F100",
+    imagen: "./Carrosfotos/Carros Pagina/FordF100/F100.jpg",
+  },
+  /* FIN CARRO 70 */
+
+  /* CARRO 71 */
+  {
+    nombre: "BMW 420i (Wrap)",
+    imagen: "./Carrosfotos/Carros Pagina/BMW420iWrap/420iWrap.jpg",
+  },
+  /* FIN CARRO 71 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
