@@ -403,8 +403,23 @@ const carros = [
   /* CARRO 58 */
   {
     nombre: "Nissan 370z (Tuning)",
-    imagen: "./Carrosfotos/Carros Pagina/HondaCivicTypeR/hondaCivicTypeR.jpg",
+    imagen: "./Carrosfotos/Carros Pagina/Nissan370/370z.jpg",
   },
+  /* FIN CARRO 58 */
+
+  /* CARRO 59 */
+  {
+    nombre: "Audi S3 (Tuning)",
+    imagen: "./Carrosfotos/Carros Pagina/AudiS3/AudiS3.jpg",
+  },
+  /* FIN CARRO 59 */
+
+  /* CARRO 60 */
+  {
+    nombre: "Porsche 718 Boxter GTS",
+    imagen: "./Carrosfotos/Carros Pagina/PorscheBoxterRojo/BoxterRojo.jpg",
+  },
+  /* FIN CARRO 60 */
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
